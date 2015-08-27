@@ -1,6 +1,6 @@
 syntax on
 set paste
-"set number "显示行号
+set number "显示行号
 
 call pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
@@ -9,9 +9,6 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-
-map <C-n> :NERDTreeToggle<CR>
-
 
 set laststatus=2 "始终显示状态栏
 set hls "检索时高亮显示匹配项
