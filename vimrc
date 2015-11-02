@@ -12,8 +12,8 @@ map <C-l> <C-W>l
 
 set laststatus=2 "始终显示状态栏
 set hls "检索时高亮显示匹配项
-set tabstop=2 "一个制表符的长度
-set shiftwidth=2 "一个缩进的长度
+set tabstop=4 "一个制表符的长度
+set shiftwidth=4 "一个缩进的长度
 "set softtabstop=2 "一个制表符的长度（可以大于tabstop）
 
 set expandtab "使用空格替代制表符
@@ -28,4 +28,5 @@ set ruler "显示位置指示器
 "set helplang=cn "帮助系统设置为中文
 
 "set fdm=indent
-set foldmethod=syntax "代码折叠
+"set foldmethod=syntax "代码折叠
+set mouse=v

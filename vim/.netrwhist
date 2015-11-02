@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/data/deploy/ZendDbHelper/Dao'
 let g:netrw_dirhist_2='/data/deploy/ZendDbHelper/scripts/archive'
 let g:netrw_dirhist_3='/data/deploy/cms.supaide.cn/controllers'
 let g:netrw_dirhist_4='/usr/local/etc/nginx/conf.d'
 let g:netrw_dirhist_5='/data/www/faxnote/api'
+let g:netrw_dirhist_6='/home/fence/myvim'
