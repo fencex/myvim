@@ -1,6 +1,6 @@
 syntax on
 set paste
-set number "显示行号
+"set number "显示行号
 
 call pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
