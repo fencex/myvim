@@ -38,4 +38,5 @@ set ruler "显示位置指示器
 "set helplang=cn "帮助系统设置为中文
 
 "set fdm=indent
-set foldmethod=syntax "代码折叠
+"set foldmethod=syntax "代码折叠
+set mouse=v
