@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/data/deploy/ZendDbHelper/Dao'
-let g:netrw_dirhist_2='/data/deploy/ZendDbHelper/scripts/archive'
-let g:netrw_dirhist_3='/data/deploy/cms.supaide.cn/controllers'
-let g:netrw_dirhist_4='/usr/local/etc/nginx/conf.d'
-let g:netrw_dirhist_5='/data/www/faxnote/api'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/data/code/phplib/Service/Task/Price'
+let g:netrw_dirhist_2='/data/code/api.supaide.com/config'
+let g:netrw_dirhist_3='/data/code/api.supaide.com'
+let g:netrw_dirhist_4='/data/code/api.supaide.com/controllers'
+let g:netrw_dirhist_5='/data/www/php/test_composer/vendor/composer'
+let g:netrw_dirhist_6='/Users/fence/mybash'
+let g:netrw_dirhist_7='/Users/fence/Documents/fencex.github.io/source/_posts'
+let g:netrw_dirhist_8='/Users/fence/tmp'
+let g:netrw_dirhist_9='/data/case/login.2345.com/branches/xiezhixin'
