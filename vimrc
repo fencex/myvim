@@ -12,7 +12,7 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-imap jj <Esc>
+c>
 map <C-n> :NERDTreeToggle<CR>
 set laststatus=2 "始终显示状态栏
 set hls "检索时高亮显示匹配项
@@ -29,4 +29,4 @@ set ruler "显示位置指示器
 "set ignorecase "检索时忽略大小写
 "set helplang=cn "帮助系统设置为中文
 "set fdm=indent
-"set foldmethod=syntax "代码折叠
+"set foldmethod=syntax "代码折叠map 
