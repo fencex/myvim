@@ -39,4 +39,3 @@ set ruler "显示位置指示器
 
 "set fdm=indent
 "set foldmethod=syntax "代码折叠
-set mouse=v
