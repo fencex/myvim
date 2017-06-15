@@ -29,7 +29,7 @@ set smartindent "智能缩进
 set ruler "显示位置指示器
 "set backupdir=/tmp "设置备份文件目录
 "set directory=/tmp "设置临时文件目录
-"set ignorecase "检索时忽略大小写
+set ignorecase "检索时忽略大小写
 "set helplang=cn "帮助系统设置为中文
 "set fdm=indent
 "set foldmethod=syntax "代码折叠map
