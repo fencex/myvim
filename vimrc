@@ -1,6 +1,7 @@
-"set shell=/bin/zsh
+set shell=/bin/zsh
 set encoding=utf-8
 set fileencodings=utf-8,cp936,gb18030,ucs-bom,big5,euc-jp,euc-kr,latin1
+set fileformats=unix,dos
 set termencoding=utf-8
 language zh_CN.GB18030
 syntax on
@@ -17,6 +18,13 @@ let g:airline_theme='base16_atelierheath'
 map <C-p> :TagbarToggle<CR>
 
 map <C-n> :NERDTreeToggle<CR>
+
+map <C-M>o :set nu<CR>
+map <C-M>p :set nonu<CR>
+
+map <C-M>l :set list<CR>
+map <C-M>n :set nolist<CR>
+
 set laststatus=2 "始终显示状态栏
 set hls "检索时高亮显示匹配项
 set tabstop=4 "一个制表符的长度
@@ -33,3 +41,6 @@ set ignorecase "检索时忽略大小写
 "set helplang=cn "帮助系统设置为中文
 "set fdm=indent
 "set foldmethod=syntax "代码折叠map
+
+au BufRead,BufNewFile *.vue set filetype=html
+
