@@ -5,7 +5,7 @@ set fileformats=unix,dos
 set termencoding=utf-8
 language zh_CN.GB18030
 syntax on
-set paste
+"set paste
 "set number "显示行号
 call pathogen#infect()
 map <C-e> :FencAutoDetect<CR>

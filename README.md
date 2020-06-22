@@ -4,7 +4,7 @@
 
 ```
 
-    git clone --depth 1 https://gitee.com/fencex/myvim.git ~/myvim
+    git clone --depth 1 https://github.com/fencex/myvim.git ~/myvim
     cd ~/myvim
     git submodule update --init --depth 1
 
